@@ -6,7 +6,7 @@ class StringToolsTest {
 
     @org.junit.jupiter.api.Test
     public void firstToUpperCaseReturned() {
-        String actual = "Apple";
+        String actual = StringTools.FirstToUpperCase("apple");
         String expected = "Apple";
         assertEquals(expected, actual);
     }
